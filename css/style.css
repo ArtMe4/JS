@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+.wind {
+  display: none;
+  position: absolute;
+  top: 25%;
+  left: 37.5%;
+  width: 25%;
+  height: 200px;
+  border: 2px solid silver;
+  text-align: center;
+  z-index: 110;
+  border-radius: 5px;
+  padding-bottom: 55px;
+}
+
+.wind > h1 {
+  margin-top: 40px;
+  color: #393939;
+}
+
+.wind > p {
+  color: #454545;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.wind > button {
+  margin-top: 20px;
+  padding: 10px 5px;
+  width: 80%;
+  background: #D44916;
+  color: #fff;
+  border-radius: 5px;
+  border: 2px solid #993600;
+}
+
+.wind > button:hover {
+  cursor: pointer;
+  background: #993600;
+}
+
+
+.btn-first {
+  position: relative;
+  padding: 8px 20px;
+  margin: 5px;
+  background: #D44916;
+  color: #fff;
+  border: 0;
+  border-radius: 3px;
+}
+
+.btn-first:hover {
+  cursor: pointer;
+  background: #A43911;
+}
+
+@keyframes marg {
+  from {
+    margin: 10px;
+    border-radius: 3px;
+  }
+  50% {
+    border-radius: 3px;
+  }
+  to {
+    margin: 50px 100px;
+    border-radius: 50px;
+  }
+}
+
+.timer {
+  position: absolute;
+  display: none;
+  text-align: center;
+  font-size: 14px;
+  padding: 8px;
+  background: #ccc;
+  border: 2px solid #747474;
+  border-radius: 5px;
+}
